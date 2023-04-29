@@ -1,24 +1,26 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+
 
 [[social]]
-identifier = "github"
-name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+identifier = "RSS"
+name = "RSS"
+url = "/index.xml"
 
 [social.params]
-icon = "brand-github"
+icon = "rss"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "telegram"
+name = "telegram"
+url = "https://t.me/NEXISTS"
 
 [social.params]
-icon = "brand-twitter"
+icon = "telegram"
+
+[[social]]
+identifier = "bangumi"
+name = "bangumi"
+url = "https://bangumi.tv/user/nonexistentx"
+
+[social.params]
+icon = "bangumi"
