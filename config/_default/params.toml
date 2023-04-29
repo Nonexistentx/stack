@@ -75,7 +75,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "disqusjs"
 
 [comments.disqusjs]
 shortname = "nonexx"
